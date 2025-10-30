@@ -1,0 +1,26 @@
+name: ai_novel_mobile
+description: AI 小说创作（手机端直连 AI）
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  shared_preferences: ^2.2.3
+  file_picker: ^8.1.2
+  path: ^1.9.0
+  archive: ^3.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
